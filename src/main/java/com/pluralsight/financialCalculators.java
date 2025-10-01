@@ -21,6 +21,6 @@ public class financialCalculators {
         M = P * (i * Math.pow(1 + i, n)) / (Math.pow(1 + i, n) - 1);
         double totalInterest;
         totalInterest = (M*n)-P;
-        System.out.println("A" + " " + P + " " + "loan at 7.625% interest for" + " " + y + " " + "years would have a" + " " + M + "/mo" + "payment with a total interest of $" + totalInterest);
+        System.out.println("A $" + " " + P + " " + "loan at 7.625% interest for" + " " + y + " " + "years would have a $" + M + "/mo" + "payment with a total interest of $" + totalInterest);
     }
 }
